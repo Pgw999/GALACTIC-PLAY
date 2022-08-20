@@ -52,7 +52,7 @@
   async function sendShare() { 
    const result = await liff.shareTargetPicker([{
         "type": "flex",
-        "altText": "พี่ชื่ออะไรคะ",
+        "altText": "กรอกโค้ดเครดิตฟรีที่นี่ !!",
     "type": "flex",
     "contents": {
   "type": "carousel",
@@ -67,7 +67,7 @@
         "action": {
           "type": "uri",
           "label": "action",
-          "uri": "https://bit.ly/3c7ynUT"
+          "uri": "https://bit.ly/3pvSSO4"
         }
       },
       "body": {
@@ -112,7 +112,7 @@
             "action": {
               "type": "uri",
               "label": "กรอกโค้ดเครดิตฟรี",
-              "uri": "https://bit.ly/3c7ynUT"
+              "uri": "https://bit.ly/3pvSSO4"
             },
             "style": "secondary",
             "height": "sm",
@@ -127,7 +127,7 @@
                 "action": {
                   "type": "uri",
                   "label": "แชร์ให้เพื่อน",
-                  "uri": ""              <!-- <=== ต้องแก้ -->
+                  "uri": "https://liff.line.me/1657403038-j3oNyVe2"              <!-- <=== ต้องแก้ -->
                 },
                 "style": "primary",
                 "height": "sm",
@@ -138,7 +138,7 @@
                 "action": {
                   "type": "uri",
                   "label": "สมัครสมาชิก",
-                  "uri": "https://bit.ly/3c7ynUT"
+                  "uri": "https://bit.ly/3pvSSO4"
                 },
                 "style": "primary",
                 "height": "sm",
@@ -172,7 +172,7 @@
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "https://bit.ly/3c7ynUT"
+              "uri": "https://bit.ly/3pvSSO4"
             }
           }
         ]
@@ -208,7 +208,7 @@
     }
     async function main() {
       await liff.init({
-        liffId: ""
+        liffId: "1657403038-j3oNyVe2"
       })
       if (!liff.isLoggedIn()) {
         liff.login()
